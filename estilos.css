@@ -230,3 +230,167 @@ main.call{
         grid-template-rows: 200px 200px;
     }
 }
+/* iniciamos estilos de "destinos" */
+.destinos{
+    font-family: "Madimi One", sans-serif;
+}
+
+.presdestinos{
+    background-color: #000;
+    color: #0E41B0;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+.cordoba a{
+    color: #F05D0E;
+    font-size: 20px;
+}
+.sanluis a{
+    color: #F05D0E;
+    font-size: 20px;
+}
+.mendoza a{
+    color: #F05D0E;
+    font-size: 20px;
+}
+.larioja a{
+    color: #F05D0E;
+    font-size: 20px;
+}
+.rionegro a{
+    color: #F05D0E;
+    font-size: 20px;
+}
+/* iniciamos estilos Experiencias */
+.experiencias{
+    background-image: url(./img/experiencias.main1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experiencia{
+    background-color: rgba(196, 196, 191, 0.356);
+    width: 60%;
+    border: 6px solid orange;
+    padding-bottom: 30px;
+}
+.experiencia h1{
+    color: #0E41B0;
+    text-align: center;
+    text-shadow: 0 0 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.experiencia a{
+    background-color: #F05D0E;
+    color: #000;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 20px;
+}
+.misexp{
+    background-color: #09636B;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+/* tarjetas primera linea */
+.card1{
+    width: 30%;
+    height: 500px;
+    background-color: #EDDEA4;
+    color: #000;
+    text-align: center;
+    border: 5px solid orange;
+}
+.card-img1{
+    height: 200px;
+    background-image: url(./img/card-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.card2{
+    width: 30%;
+    height: 500px;
+    background-color: #EDDEA4;
+    color: #000;
+    text-align: center;
+    border: 5px solid orange;
+}
+.card-img2{
+    height: 200px;
+    background-image: url(./img/card1-2-iguazu.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.card3{
+    width: 30%;
+    height: 500px;
+    background-color: #EDDEA4;
+    color: #000;
+    text-align: center;
+    border: 5px solid orange;
+}
+.card-img3{
+    height: 200px;
+    background-image: url(./img/card1-3-cordoba.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* FIN tarjetas primera linea */
+/* inicia segunda linea de tarjetas */
+.misexp2{
+    background-color: #09636B;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.card4{
+    width: 30%;
+    height: 500px;
+    background-color: #EDDEA4;
+    color: #000;
+    text-align: center;
+    border: 5px solid orange;
+}
+.card-img4{
+    height: 200px;
+    background-image: url(./img/card2-1-salta.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.card5{
+    width: 30%;
+    height: 500px;
+    background-color: #EDDEA4;
+    color: #000;
+    text-align: center;
+    border: 5px solid orange;
+}
+.card-img5{
+    height: 200px;
+    background-image: url(./img/card5-2-larioja.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.card6{
+    width: 30%;
+    height: 500px;
+    background-color: #EDDEA4;
+    color: #000;
+    text-align: center;
+    border: 5px solid orange;
+}
+.card-img6{
+    height: 200px;
+    background-image: url(./img/card-6-2-bsas.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* ------fin de "Experiencias----" */
