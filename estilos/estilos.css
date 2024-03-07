@@ -26,7 +26,7 @@ font-family: "Merriweather", serif; */
     justify-content: flex-end;
 }
 .jumbotron{
-    background-image: url(img/presentacion.jpg);
+    background-image: url(../img/presentacion.jpg);
     background-size: cover;
     background-position: center;
     height: 380px;
@@ -95,7 +95,7 @@ ul{
 main.call{
         height: 450px;
         width: 100%;
-        background-image: url(./img/galeria.class.jpg);
+        background-image: url(../img/galeria.class.jpg);
         background-size: cover;
         background-position: center;
         display: grid;
@@ -156,28 +156,28 @@ main.call{
 }
 /* inicia media queris */
 .item1{
-    background-image: url(./img/galeria.1.jpg);
+    background-image: url(../img/galeria.1.jpg);
 }
 .item2{
-    background-image: url(./img/galeria.2.jpg);
+    background-image: url(../img/galeria.2.jpg);
 }
 .item3{
-    background-image: url(./img/galeria.3.jpg);
+    background-image: url(../img/galeria.3.jpg);
 }
 .item4{
-    background-image: url(./img/galeria.4.jpg);
+    background-image: url(../img/galeria.4.jpg);
 }
 .item5{
-    background-image: url(./img/galeria.5.jpg);
+    background-image: url(../img/galeria.5.jpg);
 }
 .item6{
-    background-image: url(./img/galeria.6.jpg);
+    background-image: url(../img/galeria.6.jpg);
 }
 .item7{
-    background-image: url(./img/galeria.7.jpg);
+    background-image: url(../img/galeria.7.jpg);
 }
 .item8{
-    background-image: url(./img/galeria.8.jpg);
+    background-image: url(../img/galeria.8.jpg);
 }
 
 @media only screen and (min-width:480px){
@@ -264,7 +264,7 @@ main.call{
 }
 /* iniciamos estilos Experiencias */
 .experiencias{
-    background-image: url(./img/experiencias.main1.jpg);
+    background-image: url(../img/experiencias.main1.jpg);
     background-size: cover;
     background-position: center;
     height: 650px;
@@ -310,7 +310,7 @@ main.call{
 }
 .card-img1{
     height: 200px;
-    background-image: url(./img/card-1.jpg);
+    background-image: url(../img/card-1.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -324,7 +324,7 @@ main.call{
 }
 .card-img2{
     height: 200px;
-    background-image: url(./img/card1-2-iguazu.jpg);
+    background-image: url(../img/card1-2-iguazu.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -338,7 +338,7 @@ main.call{
 }
 .card-img3{
     height: 200px;
-    background-image: url(./img/card1-3-cordoba.jpg);
+    background-image: url(../img/card1-3-cordoba.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -361,7 +361,7 @@ main.call{
 }
 .card-img4{
     height: 200px;
-    background-image: url(./img/card2-1-salta.jpg);
+    background-image: url(../img/card2-1-salta.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -375,7 +375,7 @@ main.call{
 }
 .card-img5{
     height: 200px;
-    background-image: url(./img/card5-2-larioja.jpg);
+    background-image: url(../img/card5-2-larioja.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -389,8 +389,13 @@ main.call{
 }
 .card-img6{
     height: 200px;
-    background-image: url(./img/card-6-2-bsas.jpg);
+    background-image: url(../img/card-6-2-bsas.jpg);
     background-size: cover;
     background-position: center;
 }
 /* ------fin de "Experiencias----" */
+/* COMIENZA ESTILOS DE "Contanos" */
+
+.contanos h2{
+    background-color: #0E41B0;
+}
