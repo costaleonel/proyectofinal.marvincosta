@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Ojuju :wght@200..800&display=swap');
+
+/* font-family: "Madimi One", sans-serif;
+font-family: "Ojuju", sans-serif;
+font-family: "Merriweather", serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #F05D0E;
+    color: rgb(2, 2, 14);
+    min-height: 100px;
+}
+.nav-link, .navbar-brand{
+    color: rgb(14, 12, 12) !important;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Merriweather", serif;
+}
+.collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+.jumbotron{
+    background-image: url(img/presentacion.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+    color: #000;
+}
+
+main{
+    background-color: #09636B;
+    width: 100%;
+    height: auto;
+    
+    color: #000;
+}
+.medio{
+    background-color: #09636B;
+    height: 100%;
+    width: 100%;
+}
+
+.medio img{
+    
+    height: 370px;
+    width: 30%;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec {
+    width: 100%;
+}
+footer{
+    background-color: #F05D0E;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-family: "Merriweather", serif;
+}
+footer p{
+    margin-bottom: 20px;
+}
+.redes{
+    color: #09636B ;
+    text-decoration: none;
+    font-size: 30px;
+}
+ul{
+    color: #09636B;
+    font-weight: 1000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subir{
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    color: black;
+    line-height: 40px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+/* *********fin de estilos index ****** */
+/* comienza estilos de galeria */
+main.call{
+        height: 450px;
+        width: 100%;
+        background-image: url(./img/galeria.class.jpg);
+        background-size: cover;
+        background-position: center;
+        display: grid;
+        place-items: center;
+}
+.call{
+    background-color: rgba(255, 255, 255, 0.082);
+    width: 70%;
+    padding: 20px;
+    border: 5px solid orange;
+    text-align: center;
+}
+.call1{
+    background-color: #09636B;
+}
+.call h1{
+    color: #0E41B0;
+    text-shadow: 0 0 5px;
+}
+.call p{
+    color: #EDDEA4;
+}
+.call1 h2{
+    color: #0E41B0;
+    background-color: #000;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+.call1 p{
+    color: #000;
+    font-family: "Ojuju", sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.galeriah2{
+    color: #0E41B0;
+    background-color: #000;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 200px);
+    background-color: #09636B;
+    padding: 20px;
+    grid-gap: 20px;
+
+}
+.item{
+    border: 5px solid #000;
+    background-size: cover;
+    background-position: center;
+}
+/* inicia media queris */
+.item1{
+    background-image: url(./img/galeria.1.jpg);
+}
+.item2{
+    background-image: url(./img/galeria.2.jpg);
+}
+.item3{
+    background-image: url(./img/galeria.3.jpg);
+}
+.item4{
+    background-image: url(./img/galeria.4.jpg);
+}
+.item5{
+    background-image: url(./img/galeria.5.jpg);
+}
+.item6{
+    background-image: url(./img/galeria.6.jpg);
+}
+.item7{
+    background-image: url(./img/galeria.7.jpg);
+}
+.item8{
+    background-image: url(./img/galeria.8.jpg);
+}
+
+@media only screen and (min-width:480px){
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 200px);
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .galeria{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .item1{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .item2{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .item3{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .item4{
+        grid-column: 2/4;
+        grid-row: 2/3;
+    }
+    .item5{
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    .item6{
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+    .item7{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .item8{
+        grid-column: 2/4;
+        grid-row: 4/5;
+    }
+}
+@media only screen and (min-width:1024px){
+    .galeria{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 200px 200px;
+    }
+}
